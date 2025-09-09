@@ -10,6 +10,6 @@ const subscriptionSchema = new mongoose.Schema({
         ref:"User"
     }
 
-},{timestames:true})
+},{timestamps:true})
 
 export const Subscription = mongoose.model("Subscription" , subscriptionSchema)
